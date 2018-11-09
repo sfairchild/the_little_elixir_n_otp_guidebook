@@ -44,6 +44,6 @@ defmodule Metex.Worker do
   end
 
   defp apikey do
-    "c7561a08d6b2e776a94082f790bf5a10"
+    System.get_env("weather_api_key")
   end
 end
